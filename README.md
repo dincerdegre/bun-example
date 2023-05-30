@@ -8,7 +8,8 @@ curl -fsSL https://bun.sh/install | bash
 ```
 
 ```
-# npm ile bu şekilde yüklemek package.json içinde kullanabilmek için daha çok işinize yarayacaktır
+# npm ile bu şekilde yüklemek package.json içinde
+# kullanabilmek için daha çok işinize yarayacaktır
 npm install -g bun
 ```
 
