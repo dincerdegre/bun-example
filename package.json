@@ -1,0 +1,19 @@
+{
+  "name": "bun",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "bun run index.js",
+    "del-build":"rimraf ./build",
+    "build": "bun run del-build && bun build *.js --outdir ./build",
+    "build-minify": "bun run del-build && bun build *.js --minify --outdir ./build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rimraf": "^5.0.1"
+  }
+}
